@@ -34,6 +34,7 @@ for nom_variable, contenu_variable in variables.items():
     time.sleep(1)
 
     keyboard.press(Key.enter)
+    keyboard.release(Key.enter)
 
     time.sleep(30)
 
